@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">SigKi</string>
+
+    <!-- Carousel / Utility Names -->
+    <string name="item_flashlight">Flashlight</string>
+    <string name="item_camera">Camera</string>
+    <string name="item_dnd">Do not disturb</string>
+    <string name="item_app">App</string>
+    <string name="item_contact">Contact</string>
+    <string name="item_screenshot">Screenshot</string>
+    <string name="item_url">Open URL</string>
+    <string name="item_talkback">TalkBack</string>
+    <string name="item_media">Media Control</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_permanent_panel">Always show option panel</string>
+    <string name="settings_permanent_panel_desc">Show options instantly without clicking the button</string>
+    <string name="settings_default_assistant">Set as Default Assistant</string>
+    <string name="settings_system_settings">System Settings</string>
+    <string name="settings_about">About SigKi</string>
+    <string name="settings_app_version">App version</string>
+    <string name="settings_developer">Developer</string>
+    <string name="settings_dev_name">d4viddf</string>
+    <string name="app_version_value">1.0.0 (1)</string>
+
+    <!-- About -->
+    <string name="about_title">About SigKi</string>
+    <string name="about_description">SigKi is a combination of \u0022Sig\u0022 (Signal) and \u0022Ki\u0022 (the sound made by the Peregrine Falcon, the fastest flying animal). \n\nIt symbolizes the instant possibilities triggered by a quick signal from your phone. By taking over the standard assistant invocation, SigKi replaces generic AI chatbots with lightning-fast access to the tools you actually use every day.</string>
+    <string name="developer_github_url">https://github.com/d4viddf</string>
+
+    <!-- Main UI -->
+    <string name="button_options">Options</string>
+    <string name="button_hide_options">Hide Options</string>
+    <string name="banner_not_default">SigKi is not your default assistant. Tap to fix.</string>
+
+    <!-- Option Panels -->
+    <string name="options_title_suffix">%1$s Options</string>
+    <string name="camera_lockscreen">Lockscreen Access</string>
+    <string name="camera_lockscreen_desc">Open camera when device is locked</string>
+    <string name="dnd_granted">DND Permission Granted</string>
+    <string name="dnd_grant_button">Grant DND Permission</string>
+    <string name="app_target">Target Application</string>
+    <string name="contact_selected">Selected Contact</string>
+    <string name="contact_action">Action to Perform</string>
+    <string name="screenshot_show_preview">Show Preview &amp; Share</string>
+    <string name="screenshot_show_preview_desc">Show a panel to share or edit after capture</string>
+    <string name="screenshot_save_location">Save Location</string>
+    <string name="url_destination">Destination URL</string>
+    <string name="url_destination_desc">Set the web page to open when triggered</string>
+    <string name="url_placeholder">https://&#8230;</string>
+    <string name="options_default_desc">Configure actions for this utility.</string>
+    <string name="media_action">Media Action</string>
+    <string name="media_fallback_app">Preferred Media App</string>
+    <string name="media_fallback_app_desc">App to launch if no media is active</string>
+    <string name="action_play_pause">Play/Pause</string>
+    <string name="action_play_pause_desc">Toggle playback of active media.</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_stop_desc">Stop all media playback.</string>
+    <string name="value_not_selected">Not selected</string>
+
+    <!-- Selectors -->
+    <string name="choose_app">Choose Application</string>
+    <string name="choose_contact">Choose Contact</string>
+    <string name="search_contacts">Search contacts…</string>
+    <string name="choose_action">Choose Action</string>
+
+    <!-- Contact Actions -->
+    <string name="action_call">Call Contact</string>
+    <string name="action_call_desc">Starts a phone call to the selected contact instantly.</string>
+    <string name="action_message">Message Contact</string>
+    <string name="action_message_desc">Opens your default messaging app to text the contact.</string>
+    <string name="action_view">Open Contact Info</string>
+    <string name="action_view_desc">Opens the contact\'s profile in your system Contacts app.</string>
+
+    <!-- Screenshot Preview -->
+    <string name="screenshot_captured">Screenshot Captured</string>
+    <string name="screenshot_waiting">Waiting for system…</string>
+    <string name="button_share">Share</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_close">Close</string>
+    <string name="share_chooser_title">Share Screenshot</string>
+    <string name="edit_chooser_title">Edit Screenshot</string>
+
+    <!-- Toasts / Errors -->
+    <string name="toast_flashlight_error">Error toggling flashlight: %1$s</string>
+    <string name="toast_contact_error">Error handling contact: %1$s</string>
+    <string name="toast_no_screenshot">No screenshot available</string>
+    <string name="toast_screenshot_saved">Screenshot saved</string>
+    <string name="toast_invalid_location">Invalid save location</string>
+    <string name="toast_save_failed">Failed to save: %1$s</string>
+    <string name="toast_opening_accessibility">Opening Accessibility Settings for TalkBack</string>
+</resources>

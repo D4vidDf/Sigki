@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">SigKi</string>
+
+    <!-- Carousel / Utility Names -->
+    <string name="item_flashlight">Linterna</string>
+    <string name="item_camera">Cámara</string>
+    <string name="item_dnd">No molestar</string>
+    <string name="item_app">Aplicación</string>
+    <string name="item_contact">Contacto</string>
+    <string name="item_screenshot">Captura de pantalla</string>
+    <string name="item_url">Abrir URL</string>
+    <string name="item_talkback">TalkBack</string>
+    <string name="item_media">Control multimedia</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_permanent_panel">Mostrar siempre el panel de opciones</string>
+    <string name="settings_permanent_panel_desc">Muestra las opciones al instante sin hacer clic en el botón de opciones</string>
+    <string name="settings_default_assistant">Establecer como asistente predeterminado</string>
+    <string name="settings_system_settings">Ajustes del sistema</string>
+    <string name="settings_about">Acerca de SigKi</string>
+    <string name="settings_app_version">Versión de la aplicación</string>
+    <string name="settings_developer">Desarrollador</string>
+    <string name="settings_dev_name">d4viddf</string>
+    <string name="app_version_value">1.0.0 (1)</string>
+
+    <!-- About -->
+    <string name="about_title">Acerca de SigKi</string>
+    <string name="about_description">SigKi es una combinación de \u0022Sig\u0022 (Signal/Señal) y \u0022Ki\u0022 (el sonido que hace el Halcón Peregrino, el animal más rápido del mundo). \n\nSimboliza las posibilidades al realizar una acción (señal) rápida de tu teléfono. Al tomar el relevo de la invocación estándar del asistente, SigKi reemplaza los chatbots de IA genéricos con un acceso ultrarrápido a las herramientas que realmente usas a diario.</string>
+    <string name="developer_github_url">https://github.com/d4viddf</string>
+
+    <!-- Main UI -->
+    <string name="button_options">Opciones</string>
+    <string name="button_hide_options">Ocultar opciones</string>
+    <string name="banner_not_default">SigKi no es tu asistente predeterminado. Pulsa para solucionarlo.</string>
+
+    <!-- Option Panels -->
+    <string name="options_title_suffix">Opciones de %1$s</string>
+    <string name="camera_lockscreen">Acceso con pantalla bloqueada</string>
+    <string name="camera_lockscreen_desc">Abrir la cámara cuando el dispositivo está bloqueado</string>
+    <string name="dnd_granted">Permiso No molestar concedido</string>
+    <string name="dnd_grant_button">Conceder permiso No molestar</string>
+    <string name="app_target">Aplicación objetivo</string>
+    <string name="contact_selected">Contacto seleccionado</string>
+    <string name="contact_action">Acción a realizar</string>
+    <string name="screenshot_show_preview">Mostrar vista previa y compartir</string>
+    <string name="screenshot_show_preview_desc">Mostrar un panel para compartir o editar después de la captura</string>
+    <string name="screenshot_save_location">Ubicación de guardado</string>
+    <string name="url_destination">URL de destino</string>
+    <string name="url_destination_desc">Establecer la página web a abrir cuando se active</string>
+    <string name="url_placeholder">https://&#8230;</string>
+    <string name="options_default_desc">Configura las acciones para esta utilidad.</string>
+    <string name="media_action">Acción multimedia</string>
+    <string name="media_fallback_app">App multimedia preferida</string>
+    <string name="media_fallback_app_desc">App a lanzar si no hay multimedia activa</string>
+    <string name="action_play_pause">Reproducir/Pausar</string>
+    <string name="action_play_pause_desc">Alternar la reproducción de la multimedia activa.</string>
+    <string name="action_stop">Detener</string>
+    <string name="action_stop_desc">Detener toda la reproducción multimedia.</string>
+    <string name="value_not_selected">No seleccionado</string>
+
+    <!-- Selectors -->
+    <string name="choose_app">Seleccionar aplicación</string>
+    <string name="choose_contact">Seleccionar contacto</string>
+    <string name="search_contacts">Buscar contactos…</string>
+    <string name="choose_action">Seleccionar acción</string>
+
+    <!-- Contact Actions -->
+    <string name="action_call">Llamar al contacto</string>
+    <string name="action_call_desc">Inicia una llamada telefónica al contacto seleccionado al instante.</string>
+    <string name="action_message">Mensaje al contacto</string>
+    <string name="action_message_desc">Abre tu aplicación de mensajería predeterminada para escribir al contacto.</string>
+    <string name="action_view">Ver información del contacto</string>
+    <string name="action_view_desc">Abre el perfil del contacto en tu aplicación de Contactos del sistema.</string>
+
+    <!-- Screenshot Preview -->
+    <string name="screenshot_captured">Captura de pantalla realizada</string>
+    <string name="screenshot_waiting">Esperando al sistema…</string>
+    <string name="button_share">Compartir</string>
+    <string name="button_edit">Editar</string>
+    <string name="button_close">Cerrar</string>
+    <string name="share_chooser_title">Compartir captura de pantalla</string>
+    <string name="edit_chooser_title">Editar captura de pantalla</string>
+
+    <!-- Toasts / Errors -->
+    <string name="toast_flashlight_error">Error al alternar la linterna: %1$s</string>
+    <string name="toast_contact_error">Error al gestionar el contacto: %1$s</string>
+    <string name="toast_no_screenshot">No hay ninguna captura de pantalla disponible</string>
+    <string name="toast_screenshot_saved">Captura de pantalla guardada</string>
+    <string name="toast_invalid_location">Ubicación de guardado no válida</string>
+    <string name="toast_save_failed">Error al guardar: %1$s</string>
+    <string name="toast_opening_accessibility">Abriendo los ajustes de Accesibilidad para TalkBack</string>
+</resources>

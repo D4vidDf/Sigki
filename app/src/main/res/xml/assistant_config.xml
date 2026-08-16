@@ -1,0 +1,7 @@
+<voice-interaction-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sessionService="com.d4viddf.sigki.assistant.AssistantSessionService"
+    android:recognitionService="com.d4viddf.sigki.assistant.AssistantRecognitionService"
+    android:settingsActivity="com.d4viddf.sigki.MainActivity"
+    android:supportsAssist="true"
+    android:supportsLocalInteraction="true" />
